@@ -1,0 +1,74 @@
+$green1: #00681b;
+$green2:#018031;
+$green3:#009846;
+$green4:#48c26c;
+$green5:#76ee94;
+$yellow: #c7cc00;
+$brown:#994700;
+
+body{        
+    padding: 0;
+    margin: 0;  
+    background-color: #FAFBFD; 
+    font-family: 'Oxygen', sans-serif;       
+    #MainContainer{
+        position: absolute;
+        width:100%;
+        top: 0;
+        bottom: 0;         
+        background-image: url(../images/cactusBanner.jpg);   
+        #MainContent{
+            position: absolute;
+            margin: 10% 0% 0% 5%;
+            color: #617D0F;                   
+            #Title{
+                font-weight: 700;
+                font-size: 60px;  
+                margin: 0;                              
+            }
+            #SubTitle{
+                font-weight: 300;
+                font-size: 25px;                
+                font-style: italic;
+            }
+
+            #button{
+                border: none;                
+                width: 50%;
+                padding: 3%;                
+                background-color: #617d0f;                                          
+                font-weight: bold;
+                font-size: larger;   
+                border-radius: 3px;   
+                color: #E6E3DE;                                                             
+            }
+            #button:hover{
+                transform: scale(1.01);
+                cursor: pointer;
+            }
+
+            #location{                              
+                display: flex; 
+                align-self: center;                 
+                #locationImage{
+                    margin-left: 0.5%;
+                    width: 3%;
+                    margin-right: 2%;
+                }
+            }
+
+            #SocialText{   
+                margin-top: 15%;                             
+            }
+
+            #SocialNetworks{                                                                              
+                display: flex;
+                justify-content: flex-start; 
+                margin-top: 30%;                                              
+                img{      
+                    width: 40%;                                                        
+                }
+            }
+        }                                              
+    }
+}

@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #FAFBFD;
+  font-family: "Oxygen", sans-serif;
+}
+body #MainContainer {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  background-image: url(../images/cactusBanner.jpg);
+}
+body #MainContainer #MainContent {
+  position: absolute;
+  margin: 10% 0% 0% 5%;
+  color: #617D0F;
+}
+body #MainContainer #MainContent #Title {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0;
+}
+body #MainContainer #MainContent #SubTitle {
+  font-weight: 300;
+  font-size: 25px;
+  font-style: italic;
+}
+body #MainContainer #MainContent #button {
+  border: none;
+  width: 50%;
+  padding: 3%;
+  background-color: #617d0f;
+  font-weight: bold;
+  font-size: larger;
+  border-radius: 3px;
+  color: #E6E3DE;
+}
+body #MainContainer #MainContent #button:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+body #MainContainer #MainContent #location {
+  display: flex;
+  align-self: center;
+}
+body #MainContainer #MainContent #location #locationImage {
+  margin-left: 0.5%;
+  width: 3%;
+  margin-right: 2%;
+}
+body #MainContainer #MainContent #SocialText {
+  margin-top: 15%;
+}
+body #MainContainer #MainContent #SocialNetworks {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30%;
+}
+body #MainContainer #MainContent #SocialNetworks img {
+  width: 40%;
+}
+
+/*# sourceMappingURL=main.css.map */
