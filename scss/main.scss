@@ -17,6 +17,7 @@ body{
         top: 0;
         bottom: 0;         
         background-image: url(../images/cactusBanner.jpg);   
+        background-position: 50% 20%;
         #MainContent{
             position: absolute;
             margin: 10% 0% 0% 5%;
@@ -72,3 +73,54 @@ body{
         }                                              
     }
 }
+
+@media (max-width: 380px) {
+    body{
+        #MainContainer{            
+            position: absolute;
+            width:100%;
+            top: 0;
+            bottom: 0;         
+            background-image: url(../images/cactusBanner.jpg);             
+            #MainContent{ 
+                margin: 0;
+                width: 100%;
+                height: auto;  
+                display: flex;
+                flex-direction: column;                                        
+                #Title{                                                               
+                    font-size: 40px;
+                    justify-content: start;
+                    padding: 10% 10% 0% 10%;                      
+                }
+                #SubTitle{                    
+                    font-size: 20px;
+                    padding: 0% 10% 5% 10%;
+                }
+                #button{
+                    width: 80%;   
+                    align-self: center;                                                     
+                }
+
+                #SocialNetworks{
+                    width: 40%;                    
+                    flex-direction: column;
+                    align-items: center;
+                    img{  
+                        width: 30%;
+                        padding: 20%;                      
+                    }                                                                                               
+                }
+
+                #location{                                                                                                           
+                    width: 50%;                        
+                    align-self: flex-start; 
+                    margin-left: 14%;  
+                    font-size: 13px;  
+                    justify-content: space-around;                                                               
+                }
+            }
+        }
+              
+    }    
+  }
